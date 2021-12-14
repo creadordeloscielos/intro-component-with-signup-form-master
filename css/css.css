@@ -23,6 +23,7 @@ h1 {
 p {
   line-height: 1.5;
   font-size: 1rem;
+  font-weight: 400;
 }
 
 .container {
@@ -132,6 +133,7 @@ input[type="submit"] {
   border: none;
   -webkit-transition: background-color 0.4s ease-in-out;
   transition: background-color 0.4s ease-in-out;
+  -webkit-appearance: none;
 }
 
 input[type="submit"]:hover {
@@ -162,6 +164,9 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 500px) {
+  .container {
+    height: initial;
+  }
   form {
     margin-top: 20px;
     padding: 30px 20px;
